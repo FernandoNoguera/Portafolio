@@ -1,0 +1,175 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+#navigation
+{
+    
+    background-color: black;
+    color:white;
+    margin-left:0px;
+    padding: 0px 0px;
+}
+
+#navigation h1{
+    padding: 1vw 1vw;
+}
+
+#main-section
+{
+    text-align: center ;
+    height: 90vh;
+   
+}
+#main-section .text
+{
+    color:#0a818d ;
+    margin-top: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    animation: smooth-up 1s ease;
+}
+
+#main-section button
+{
+    text-decoration:none ;
+    background-color:#0a818d ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#about
+{
+    
+    background-color:#0a818d ;
+}
+#about img{
+    height: 450px;
+    border:2px solid;
+    margin-top: 100px;
+    border-color: black;
+    border-radius: 50px 0px 50px 0px;
+    animation: smooth-right 1s ease;
+}
+#about_text{
+    margin-top: 5vw;
+    margin-bottom:4vw ;
+    padding: 20px 20px;
+    color: white;
+    animation: smooth-up 1s ease;
+    font-size: 20px;
+}
+#about button
+{
+    text-decoration:none ;
+    background-color:white ;
+    color: #0a818d;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.difuminado
+{
+    opacity: .7;
+}
+
+#educacion h1
+{
+    color: #0a818d;
+    
+}
+
+#proyectos
+{
+    background-color: #0a818d;
+    color:white;
+}
+
+#proyectos img
+{
+    height: 350px;
+   
+}
+
+#proyectos a
+{
+    color: #84dcd8;
+}
+
+.contact-box
+{
+    border:1px solid #0a818d;
+    
+ 
+}
+.contact-box a
+{ 
+    text-decoration: none;
+    color: #0a818d;
+ 
+}
+
+
+#footer-section
+{
+    background-color: black;
+    color:white;
+}
+
+#footer-section i 
+{
+    padding:5px 20px;
+    font-size: 30px;
+    color:white;
+}
+
+#navigation i 
+{
+    padding:5px 20px;
+    font-size: 30px;
+    color:white;
+}
+.txt-certificaciones{
+    color:#0a818d;
+}
+@keyframes smooth-up
+{
+	0%
+	{
+		transform:translateY(20%);
+		opacity:0;
+	}
+	100%
+	{
+		transform:translateY(0%);
+		opacity:1;
+	}
+}
+
+@keyframes smooth-right
+{
+	0%
+	{
+		transform:translateX(-20%);
+		opacity:0;
+	}
+	100%
+	{
+		transform:translatex(0%);
+		opacity:1;
+	}
+}
+@media only screen and (max-width: 768px) 
+{
+    #about img{
+        height: 350px;
+    }
+}
