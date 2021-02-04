@@ -1,3 +1,102 @@
+
+.fab 
+{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    animation: smooth-right 1s ease;
+}
+.icono-skill i
+{
+    font-size: 100px;
+    background: #0a818d;
+    color: #84dcd8;
+    font-size: 30px;
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    border:3px solid #fff;
+    position: absolute;
+    left: -30px;
+    top: 10.5px;
+    animation: smooth-right 1s ease;
+}
+.icono-skill svg
+{
+    font-size: 100px;
+    background: #0a818d;
+    color: #84dcd8;
+    font-size: 30px;
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    border:3px solid #fff;
+    position: absolute;
+    left: -30px;
+    top: 10.5px;
+    animation: smooth-right 1s ease;
+}
+.icono-skill img
+{
+    font-size: 100px;
+    background: #0a818d;
+    font-size: 30px;
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    border:3px solid #fff;
+    position: absolute;
+    left: -30px;
+    top: 10.5px;
+    animation: smooth-right 1s ease;
+}
+.icono-skill
+{
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    background: #0a818d;
+    display: inline-block;
+    padding: 4% 1% 4% 1%;
+    border-radius: 10px;
+    color: #84dcd8;
+    animation: smooth-right 1s ease;
+    
+       
+}
+#skills-section h1
+{
+    color: #0a818d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: smooth-right 1s ease;
+
+}
+#awards-section
+{
+    background-color: #0a818d;
+    color:white;
+}
+
+#awards-section h1
+{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
 body
 {
     margin: 0px;
@@ -14,6 +113,7 @@ body
 
 #navigation h1{
     padding: 1vw 1vw;
+    animation: smooth-right 1s ease;
 }
 
 #main-section
@@ -38,7 +138,10 @@ body
     color: white;
     border: none;
     border-radius: 10px;
-    padding: 5px;
+    padding-top: 6px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 6px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -48,12 +151,11 @@ body
     background-color:#0a818d ;
 }
 #about img{
-    height: 450px;
-    border:2px solid;
-    margin-top: 100px;
-    border-color: black;
-    border-radius: 50px 0px 50px 0px;
+    width: 450px;
+    border-radius:100%;
     animation: smooth-right 1s ease;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 #about_text{
     margin-top: 5vw;
@@ -70,7 +172,10 @@ body
     color: #0a818d;
     border: none;
     border-radius: 10px;
-    padding: 5px;
+    padding-top: 6px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 6px;
     font-size: 20px;
     font-weight: bold;
 
@@ -136,6 +241,7 @@ body
     padding:5px 20px;
     font-size: 30px;
     color:white;
+    animation: smooth-up 1s ease;
 }
 .txt-certificaciones{
     color:#0a818d;
@@ -167,9 +273,14 @@ body
 		opacity:1;
 	}
 }
-@media only screen and (max-width: 768px) 
+@media only screen and (max-width: 600px) 
 {
     #about img{
-        height: 350px;
+        height: 300px;
     }
+}
+#service-section h1
+{
+    color: #0a818d;
+    
 }
