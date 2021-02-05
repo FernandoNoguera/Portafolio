@@ -151,7 +151,7 @@ body
     background-color:#0a818d ;
 }
 #about img{
-    width: 450px;
+    width: 100% ;
     border-radius:100%;
     animation: smooth-right 1s ease;
     margin-top: 100px;
@@ -226,13 +226,6 @@ body
 #footer-section
 {
     background-color: black;
-    color:white;
-}
-
-#footer-section i 
-{
-    padding:5px 20px;
-    font-size: 30px;
     color:white;
 }
 
