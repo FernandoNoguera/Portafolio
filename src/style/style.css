@@ -1,4 +1,7 @@
-
+#certificado
+{
+    animation: smooth-up 1s ease;
+}
 .fab 
 {
     display: inline-block;
@@ -97,6 +100,14 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+#premios
+{
+    animation: smooth-right 1s ease;
+}
+#mis-proyectos
+{
+    animation: smooth-right 1s ease;
+}
 body
 {
     margin: 0px;
@@ -185,6 +196,10 @@ body
 {
     opacity: .7;
 }
+#escuela
+{
+    animation: smooth-right 1s ease;
+}
 
 #educacion h1
 {
@@ -212,6 +227,9 @@ body
 .contact-box
 {
     border:1px solid #0a818d;
+    animation: smooth-up 1s ease;
+    margin-left: 25px;
+    margin-right: 25px;
     
  
 }
@@ -227,6 +245,7 @@ body
 {
     background-color: black;
     color:white;
+    animation: smooth-up 1s ease;
 }
 
 #navigation i 
@@ -275,5 +294,6 @@ body
 #service-section h1
 {
     color: #0a818d;
+    animation: smooth-right 1s ease;
     
 }
